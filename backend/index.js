@@ -27,6 +27,7 @@ app.use(require("./routes/debtservices"));
 app.use(require("./routes/agriservices"));
 app.use(require("./routes/importservices"));
 app.use(require("./routes/yieldservices"));
+app.use(require("./routes/sensorservices"));
 
 const PORT = process.env.PORT || 5000;
 //Server code will be running on port 5000
